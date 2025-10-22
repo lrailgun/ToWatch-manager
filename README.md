@@ -1,6 +1,6 @@
 # ToWatch-manager
 
-**ToWatch-manager** is a simple Bash script to manage your watchlists for anime, movies, series, cartoons, and videos.  
+**ToWatch-manager** is a simple Bash-based CLI utility to manage your watchlists for anime, movies, series, cartoons, and videos you plan to watch. It was created as an alternative to keeping long lists in pinned browser tabs, helping you organize what you want to watch in a clean, terminal-based interface.  
 It allows you to add new titles, remove existing ones, and browse your current lists.
 
 > ⚠️ Note: I am still learning programming, so this project is a work in progress.
