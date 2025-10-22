@@ -18,8 +18,8 @@ It allows you to add new titles, remove existing ones, and browse your current l
 ## Installation & Usage
 
 1. Clone the repository:
-``git clone https://github.com/lrailgun/ToWatch-manager.git
-cd ToWatch-manager``
+`git clone https://github.com/lrailgun/ToWatch-manager.git`
+`cd ToWatch-manager`
 
 2. Make the main script executable:
 `chmod +x watchlist.sh`
