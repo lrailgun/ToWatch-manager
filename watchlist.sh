@@ -1,13 +1,14 @@
 #!/bin/bash
 shopt -s nocasematch # Making script non case-sensitive
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # importing files
-source ~/arraytest/watchlist_functions.sh
-animelist=~/arraytest/anime.txt
-movielist=~/arraytest/movies.txt
-serieslist=~/arraytest/series.txt
-cartoonlist=~/arraytest/cartoons.txt
-videolist=~/arraytest/videos.txt
+source $SCRIPT_DIR/watchlist_functions.sh
+animelist="$SCRIPT_DIR/anime.txt"
+movielist="$SCRIPT_DIR/movies.txt"
+serieslist="$SCRIPT_DIR/series.txt"
+cartoonlist="$SCRIPT_DIR/cartoons.txt"
+videolist="$SCRIPT_DIR/videos.txt"
 
 # Associating files
 mapfile -t anime < $animelist
